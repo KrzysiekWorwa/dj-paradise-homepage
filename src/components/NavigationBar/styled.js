@@ -4,19 +4,15 @@ import { Link } from "react-scroll";
 
 export const Navbar = styled.nav`
   position: fixed;
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 96%;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 90px;
   background-color: rgb(0 0 0 / 30%);
   backdrop-filter: blur(10px); 
   z-index: 1000;
   display: flex;
   text-align: center;
-  border-radius: 20px;
-  border-bottom-left-radius: ${({ $open }) => ($open ? "0" : "20px")};
-  border-bottom-right-radius: ${({ $open }) => ($open ? "0" : "20px")};
 
         @media (max-width: 1050px) {
         height: 60px;

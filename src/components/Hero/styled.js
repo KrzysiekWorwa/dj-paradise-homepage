@@ -10,6 +10,14 @@ export const HeroSection = styled.section`
   background-position: center 18%;
   background-repeat: no-repeat;
 
+    &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+  }
+
   @media (max-width: 1200px) {
     height: 600px;
     background-position: center 0%;
