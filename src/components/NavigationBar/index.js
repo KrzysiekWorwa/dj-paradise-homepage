@@ -26,7 +26,7 @@ const NavigationBar = () => {
                         Home
                     </NavItem>
                     <NavItem to="about" smooth={true} duration={600} offset={-90}>
-                        O nas
+                        O mnie
                     </NavItem>
                     <NavItem to="cooperation" smooth={true} duration={800} offset={-150}>
                         Współpraca
@@ -52,7 +52,7 @@ const NavigationBar = () => {
                         Home
                     </NavItem>
                     <NavItem to="about" smooth={true} duration={600} offset={-300}>
-                        O nas
+                        O mnie
                     </NavItem>
                     <NavItem to="cooperation" smooth={true} duration={800} offset={-300}>
                         Współpraca

@@ -23,6 +23,7 @@ export const Navbar = styled.nav`
 
 export const NavWrapper = styled.div`
     width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -68,11 +69,7 @@ export const NavItem = styled(Link)`
   }
 
   &:hover {
-    color: rgb(217, 217, 217);
-
-         @media (max-width: 1050px) {
-        color:#090979;
-  }
+    color: hsla(37, 87%, 50%, 1.00);
   }
 `;
 
@@ -129,9 +126,9 @@ export const ContactButton = styled(Link)`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  background: #0366D6;
+  background: #C47E0E;
   border: 1px solid;
-  border-color: #0366D6;
+  border-color: #C47E0E;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -139,8 +136,8 @@ export const ContactButton = styled(Link)`
   font-size: 25px;
 
       &:hover {
-        background: rgb(0, 153, 255);
-        border-color:rgb(0, 153, 255);
+        background: hsla(37, 87%, 50%, 1.00);
+        border-color: hsla(37, 87%, 50%, 1.00);
     }
 `;
 
