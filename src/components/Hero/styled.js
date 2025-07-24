@@ -3,7 +3,7 @@ import image from "./images/hero.webp"
 
 export const HeroSection = styled.section`
   position: relative;
-  height: 950px;
+  height: 75vh;
   width: 100%;
   background-image: url(${image});
   background-size: cover;
@@ -19,17 +19,9 @@ export const HeroSection = styled.section`
   }
 
   @media (max-width: 1200px) {
-    height: 600px;
     background-position: center 0%;
+    height: 60vh;
   }
-
-    @media (max-width: 991px) {
-      height: 600px;
-  }
-
-    @media (max-width: 767px) {
-      height: 60vh;
-}
 `;
 
 export const HeroWrapper = styled.div`
@@ -37,44 +29,47 @@ export const HeroWrapper = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 0 60px;
-    padding-top: 290px;
+    padding-top: 42vh;
 
-      @media (max-width: 991px) {
-      padding: 0 20px;
-      padding-top: 290px;
+  @media (max-width: 1200px) {
+    padding-top: 35vh;
   }
-      @media (max-width: 767px) {
-      padding-top: 34vh;
-}
+
+  @media (max-width: 991px) {
+    padding: 0 20px;
+    padding-top: 35vh;
+  }
+
+  @media (max-width: 767px) {
+    padding-top: 34vh;
+  }
 `;
 
 export const HeroHeader = styled.h1`
   color: white;
-  font-size: 70px;
-  text-align: left;
+  font-size: 200px;
+  text-align: center;
   margin: 25px 0;
 
-    @media (max-width: 767px) {
-      text-align: center;
-    }
+  @media (max-width: 1200px) {
+    font-size: 130px;
+  }
 
+  @media (max-width: 767px) {
+    font-size: 80px;
+  }
     
   @media (max-width: 500px) {
     font-size: 50px;
-    text-align: center;
     margin: 15px 0;
   }
 `;
 
 export const HeroSubHeader = styled.h2`
     color: white;
-    font-size: 24px;
-    text-align: left;
+    font-size: 35px;
     margin: 0;
-
-    @media (max-width: 767px) {
-      text-align: center;
-    }
+    text-align: center;
     
     @media (max-width: 500px) {
       font-size: 20px;
