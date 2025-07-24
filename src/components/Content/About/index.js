@@ -1,6 +1,6 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 import { Button, ButtonWrapper, ContentHeader, Description, Section } from "../styled";
-import { AboutUsContent, AboutUsImage, AboutUsSection, AboutWrapper } from "./styled";
+import { AboutDescription, AboutUsContent, AboutUsImage, AboutUsSection, AboutWrapper } from "./styled";
 import image from "./images/team.webp"
 import { Link } from "react-scroll";
 
@@ -12,13 +12,22 @@ const About = () => (
             <StaggeredContainer>
                 <StaggeredItem>
                     <ContentHeader>
-                        Nasza działalność
+                        O mnie
                     </ContentHeader>
                 </StaggeredItem>
                 <StaggeredItem>
-                    <Description>
-                        Nasz wyspecjalizowany zespół od wielu lat zajmuje się pozyskiwaniem środków na rozwój działalności/zakładanie działalności. W oparciu o nasze doświadczenie przeprowadzimy Cię przez cały proces uzyskania funduszy. Zajmujemy się znalezieniem odpowiedniego dofinansowania pod Twój biznes, weryfikujemy już na wstępie szanse na uzyskanie środków, kompletujemy wspólnie niezbędną dokumentacje, a następnie tworzymy projekt gotowy do złożenia. Jesteśmy wsparciem przy Tworzeniu, rozliczeniu, uzupełnieniu wniosku.
-                    </Description>
+                    <AboutDescription>
+                        <strong>Paradise</strong> to DJ, wodzirej i animator w jednej osobie – zadba o każdy, nawet najmniejszy detal Waszego przyjęcia.
+                    </AboutDescription>
+                    <AboutDescription>
+                        To człowiek pełen pozytywnej energii, charyzmy i nieszablonowych pomysłów, który potrafi połączyć dobrą zabawę z klasą i wyczuciem smaku.
+                    </AboutDescription>
+                    <AboutDescription>
+                        Stawia na oryginalność, by każde wesele czy event były wyjątkowe i zupełnie inne niż wszystkie.
+                    </AboutDescription>
+                    <AboutDescription>
+                        Profesjonalizm i rzetelność to jego priorytety – dlatego każdą współpracę opiera na zaufaniu, otwartości i dokładnym poznaniu oczekiwań klientów, aby stworzyć wydarzenie dopracowane w najmniejszym szczególe.
+                    </AboutDescription>
                 </StaggeredItem>
             </StaggeredContainer>
         </AboutWrapper>

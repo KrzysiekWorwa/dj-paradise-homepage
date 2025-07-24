@@ -1,9 +1,24 @@
-import { HeroImage, HeroSection } from "./styled";
-import image from "./images/hero.webp"
+import { HeroHeader, HeroSection, HeroSubHeader, HeroWrapper } from "./styled";
+
+import { StaggeredContainer, StaggeredItem } from "../../animations/staggeredFadeIn";
 
 const Hero = () => (
     <HeroSection id="home">
-            <HeroImage src={image} alt="Hero image" />
+        <HeroWrapper>
+            <StaggeredContainer>
+                <StaggeredItem>
+                    <HeroHeader>
+                        Dj Paradise
+                    </HeroHeader>
+                </StaggeredItem>
+                <StaggeredItem>
+                    <HeroSubHeader>
+                        Wesele inne niż wszystkie!
+                    </HeroSubHeader>
+                </StaggeredItem>
+            </StaggeredContainer>
+        </HeroWrapper>
+
     </HeroSection>
 );
 

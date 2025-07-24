@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Burger, MobileMenu, Navbar, NavItem, NavLinks, NavLogo, NavWrapper, NavIcons, ContactButton } from "./styled";
-import Logo from "./images/financial.png"
+import Logo from "./images/logo.png"
 import { Link } from "react-scroll";
 
 const NavigationBar = () => {

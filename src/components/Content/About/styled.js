@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-    margin-top: 200px;
+    margin-top: 40px;
             
     @media (max-width: 767px) {
         margin-top: 30px;
@@ -21,6 +21,18 @@ justify-content: center;
         grid-template-rows: auto auto; 
         grid-gap: 16px;
     }
+`;
+
+export const AboutDescription = styled.p`
+  color:rgb(90, 103, 119);
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 10px 0;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 
 export const AboutUsImage = styled.img`

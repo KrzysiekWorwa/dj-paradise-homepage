@@ -34,7 +34,7 @@ const Address = () => (
                             <AddressLink href="tel:+48514183913" title="telefon"><PhoneIcon /> 514 183 913</AddressLink>
                         </LinkWrapper>
                         <LinkWrapper>
-                            <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com"><MailIcon />biuro@zalewczorsztynski.com</AddressLink>
+                            <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com"><MailIcon />biuro@zalewczorszt.com</AddressLink>
                         </LinkWrapper>
                     </StaggeredItem>
                     <StaggeredItem>
