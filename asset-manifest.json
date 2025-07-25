@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/dj-paradise-homepage/static/js/main.a87e39cc.js",
+    "main.js": "/dj-paradise-homepage/static/js/main.12bc11ff.js",
     "static/js/453.d71963ed.chunk.js": "/dj-paradise-homepage/static/js/453.d71963ed.chunk.js",
     "static/media/hero.webp": "/dj-paradise-homepage/static/media/hero.11d026fe1c48d50d2ccf.webp",
     "static/media/me.webp": "/dj-paradise-homepage/static/media/me.b67489c6c4caca85e7a6.webp",
@@ -19,10 +19,10 @@
     "static/media/effectiveness.svg": "/dj-paradise-homepage/static/media/effectiveness.3fdfda0a908b595e71cd52ec4dffa5d1.svg",
     "static/media/facebookIcon.svg": "/dj-paradise-homepage/static/media/facebookIcon.f266fa5079fb10e3e6344e3b9358ce04.svg",
     "static/media/arrow.svg": "/dj-paradise-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
-    "main.a87e39cc.js.map": "/dj-paradise-homepage/static/js/main.a87e39cc.js.map",
+    "main.12bc11ff.js.map": "/dj-paradise-homepage/static/js/main.12bc11ff.js.map",
     "453.d71963ed.chunk.js.map": "/dj-paradise-homepage/static/js/453.d71963ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a87e39cc.js"
+    "static/js/main.12bc11ff.js"
   ]
 }
