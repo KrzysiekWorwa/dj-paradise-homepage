@@ -11,7 +11,7 @@ const Cooperation = () => (
                 <StaggeredContainer>
                     <StaggeredItem>
                         <ContentHeader id="cooperation">
-                            Nasze Usługi
+                            Usługi
                         </ContentHeader>
                     </StaggeredItem>
                     <StaggeredItem>
@@ -23,7 +23,7 @@ const Cooperation = () => (
                 <StaggeredContainer>
                     <ListWrapper>
                         <StaggeredItem>
-                            <ContentHeader>Jak wygląda współpraca z nami?</ContentHeader>
+                            <ContentHeader>Co oferuję?</ContentHeader>
                         </StaggeredItem>
                         <List>
                             <StaggeredItem>

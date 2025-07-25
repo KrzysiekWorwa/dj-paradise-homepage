@@ -23,7 +23,7 @@ export const SectionBackground = styled.div`
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
-  background: rgb(0, 23, 63);
+  background: #C47E0E;
   color: white;
 `;
 
@@ -47,7 +47,7 @@ export const Description = styled.p`
 `;
 
 export const DescriptionLight = styled.p`
-  color:rgb(199, 199, 199);
+  color:rgba(255, 255, 255, 1);
   font-size: 20px;
   line-height: 1.5;
   text-align: justify;
@@ -67,9 +67,9 @@ export const Button = styled.a`
   text-decoration: none;
   cursor: pointer;
   color: white;
-  background: #0366D6;
+  background: #C47E0E;
   border: 1px solid;
-  border-color: #0366D6;
+  border-color: #C47E0E;
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
@@ -77,8 +77,8 @@ export const Button = styled.a`
   display: inline-block;
 
       &:hover {
-        background: rgb(0, 153, 255);
-        border-color:rgb(0, 153, 255);
+        background: hsla(37, 87%, 50%, 1.00);
+        border-color:hsla(37, 87%, 50%, 1.00);
     }
 `;
 
