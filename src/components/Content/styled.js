@@ -23,7 +23,7 @@ export const SectionBackground = styled.div`
   margin-left: -50vw;
   margin-right: -50vw;
   width: 100vw;
-  background: #C47E0E;
+  background: #181A17;
   color: white;
 `;
 
