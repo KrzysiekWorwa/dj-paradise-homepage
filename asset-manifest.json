@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.js": "/dj-paradise-homepage/static/js/main.12bc11ff.js",
+    "main.js": "/dj-paradise-homepage/static/js/main.c5e16192.js",
     "static/js/453.d71963ed.chunk.js": "/dj-paradise-homepage/static/js/453.d71963ed.chunk.js",
     "static/media/hero.webp": "/dj-paradise-homepage/static/media/hero.11d026fe1c48d50d2ccf.webp",
+    "static/media/weeding.webp": "/dj-paradise-homepage/static/media/weeding.457661d6a996b4fd6f66.webp",
     "static/media/me.webp": "/dj-paradise-homepage/static/media/me.b67489c6c4caca85e7a6.webp",
     "static/media/address.webp": "/dj-paradise-homepage/static/media/address.042f23067bb017a085bc.webp",
-    "static/media/cooperation.webp": "/dj-paradise-homepage/static/media/cooperation.081be9dd314e9427962d.webp",
+    "static/media/individual.webp": "/dj-paradise-homepage/static/media/individual.20ce2c4a12d7a638698c.webp",
     "static/media/whyUs.webp": "/dj-paradise-homepage/static/media/whyUs.c782add1b7eafe3e5f90.webp",
     "static/media/logo.png": "/dj-paradise-homepage/static/media/logo.43cc1515270653968735.png",
     "static/media/instagramIcon.svg": "/dj-paradise-homepage/static/media/instagramIcon.7bad0c3cde2835fa701a1538d5bc741b.svg",
@@ -19,10 +20,10 @@
     "static/media/effectiveness.svg": "/dj-paradise-homepage/static/media/effectiveness.3fdfda0a908b595e71cd52ec4dffa5d1.svg",
     "static/media/facebookIcon.svg": "/dj-paradise-homepage/static/media/facebookIcon.f266fa5079fb10e3e6344e3b9358ce04.svg",
     "static/media/arrow.svg": "/dj-paradise-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
-    "main.12bc11ff.js.map": "/dj-paradise-homepage/static/js/main.12bc11ff.js.map",
+    "main.c5e16192.js.map": "/dj-paradise-homepage/static/js/main.c5e16192.js.map",
     "453.d71963ed.chunk.js.map": "/dj-paradise-homepage/static/js/453.d71963ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.12bc11ff.js"
+    "static/js/main.c5e16192.js"
   ]
 }
