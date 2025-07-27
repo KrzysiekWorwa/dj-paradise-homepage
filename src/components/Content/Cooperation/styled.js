@@ -60,11 +60,11 @@ export const TileName = styled.h3`
 export const TileDescription = styled.p`
     font-size: 18px;
     line-height: 1.4;
-    color:rgb(199, 199, 199);
+    color: ${({ variant }) => (variant === "light" ? "rgb(90, 103, 119)" : "rgb(199, 199, 199)")};;
     margin: 0;
 
     ${Tile}:hover & {
-        color: white;
+        color: ${({ variant }) => (variant === "light" ? "black" : "white")};
     }
 
     @media (max-width: 767px) {

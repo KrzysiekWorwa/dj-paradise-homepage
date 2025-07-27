@@ -29,7 +29,7 @@ export const HeroWrapper = styled.div`
     width: 100%;
     margin: 0 auto;
     padding: 0 60px;
-    padding-top: 42vh;
+    padding-top: 40vh;
 
   @media (max-width: 1200px) {
     padding-top: 35vh;

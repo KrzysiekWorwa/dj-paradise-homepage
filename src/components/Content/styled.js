@@ -35,6 +35,17 @@ export const ContentHeader = styled.h2`
             font-size: 50px;
 }
 `;
+
+export const ContentSubHeader = styled.h2`
+    font-size: 50px;
+    text-align: center;
+    
+        @media (max-width: 767px) {
+            font-size: 40px;
+}
+`;
+
+
 export const Description = styled.p`
   color:rgb(90, 103, 119);
   font-size: 20px;
@@ -89,7 +100,7 @@ export const ImageWrapper = styled.div`
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 500px;
+  height: 700px;
   background-image: url(${(props) => props.$imageSrc});
   background-size: cover;
   background-position: center;
