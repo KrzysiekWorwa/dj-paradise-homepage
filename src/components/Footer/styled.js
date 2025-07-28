@@ -4,7 +4,7 @@ import { ReactComponent as InstagramIconLink } from "./SvgIcons/instagramIcon.sv
 import { Link } from "react-scroll";
 
 export const FooterSection = styled.footer`
-    background: linear-gradient(180deg,rgb(7, 70, 179) 5%, rgb(0, 23, 63) 100%);
+    background: #181A17 ;
     padding: 40px;
     text-align: center;
     margin-top: 60px;
@@ -23,6 +23,9 @@ export const FooterWrapper = styled.div`
 export const FooterLogo = styled.img`
     height: auto;
     width: 90px;
+     &:hover {
+        cursor: pointer;
+    }
 
 `;
 
@@ -42,7 +45,7 @@ export const FacebookIcon = styled(FacebookIconLink)`
     transition: color 0.3s;
 
         &:hover {
-        color: rgb(165, 170, 175);
+        color: hsla(37, 87%, 50%, 1.00);
     }
 `;
 
@@ -53,7 +56,7 @@ export const InstagramIcon = styled(InstagramIconLink)`
     transition: color 0.3s;
 
         &:hover {
-        color: rgb(165, 170, 175);
+        color: hsla(37, 87%, 50%, 1.00);
     }
 `;
 
@@ -64,7 +67,7 @@ export const FooterCopyright = styled.div`
 `;
 
 export const HomeButton = styled(Link)`
-    background: rgb(7, 70, 179);
+    background: #181A17 ;
     color: white;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -81,6 +84,6 @@ export const HomeButton = styled(Link)`
   }
 
     &:hover {
-    background:hsl(218, 92.50%, 50%);
+    background: #353635ff ;
   }
 `;
