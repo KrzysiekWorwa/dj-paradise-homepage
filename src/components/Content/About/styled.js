@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const AboutWrapper = styled.div`
-padding: 80px 0;
+padding: 0;
+padding-bottom: 80px;
 display: grid;
 grid-template-columns: auto 1fr;
 grid-gap: 72px;

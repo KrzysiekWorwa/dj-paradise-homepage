@@ -38,7 +38,7 @@ const About = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <ButtonWrapper>
-                            <Button as={Link} to="cooperation" smooth={true} duration={800} offset={-150}>
+                            <Button as={Link} to="offer" smooth={true} duration={800} offset={-200}>
                                 Poznaj ofertę
                             </Button>
                         </ButtonWrapper>

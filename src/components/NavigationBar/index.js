@@ -28,7 +28,7 @@ const NavigationBar = () => {
                     <NavItem to="about" smooth={true} duration={600} offset={-90}>
                         O mnie
                     </NavItem>
-                    <NavItem to="offer" smooth={true} duration={800} offset={-150}>
+                    <NavItem to="offer" smooth={true} duration={800} offset={-200}>
                         Oferta
                     </NavItem>
                     <NavItem to="team" smooth={true} duration={1000} offset={-100}>
