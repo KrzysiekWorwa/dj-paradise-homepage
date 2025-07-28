@@ -89,3 +89,46 @@ export const TileWrapper = styled.ul`
         place-items: center;
     }
 `;
+
+export const OfferWrapper = styled.div`
+padding: 80px 0;
+padding-bottom: 0px;
+display: grid;
+grid-template-columns: 1fr auto;
+grid-gap: 72px;
+align-items: center;
+justify-content: center;
+
+@media (max-width: 1200px) {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto; 
+        grid-gap: 16px;
+        margin-top: 30px;
+        padding: 0;
+    }
+`;
+
+export const OfferImage = styled.img`
+    width: clamp(500px, 30vw, 650px);
+    max-height: 590px;
+    object-fit: cover;
+    justify-self: center;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+        height: 410px;
+        text-align: center;
+    }
+`;
+
+export const OfferContent = styled.div`
+    @media (max-width: 1200px) {
+        order: 1;
+    }
+`;
+
+export const OfferImageWrapper = styled.div`
+    @media (max-width: 1200px) {
+        order: 2;
+    }
+`;

@@ -1,25 +1,37 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 import { Container, ContentHeader, Description, DescriptionLight, ImageWrapper, Section, SectionBackground } from "../styled";
-import { List, ListWrapper, Tile, TileDescription, TileName, TileWrapper } from "./styled";
+import { List, ListWrapper, OfferContent, OfferImage, OfferImageWrapper, OfferWrapper, Tile, TileDescription, TileName, TileWrapper } from "./styled";
 import image from "./images/weeding.webp"
 import image2 from "./images/individual.webp"
+import image3 from "./images/offer.webp"
 
 
-const Cooperation = () => (
+const Offer = () => (
     <Section>
         <SectionBackground>
             <Container>
                 <StaggeredContainer>
-                    <StaggeredItem>
-                        <ContentHeader id="cooperation">
-                            Oferta i Usługi
-                        </ContentHeader>
-                    </StaggeredItem>
-                    <StaggeredItem>
-                        <DescriptionLight>
-                            Z pasją tworzę niezapomniane muzyczne wspomnienia! Moje usługi DJ-skie to gwarancja profesjonalizmu i niezawodności, niezależnie od tego, czy organizujesz wymarzone wesele, prestiżowy event firmowy czy jubileuszową imprezę indywidualną. Poniżej znajdziesz szczegółowe informacje o tym, jak mogę sprawić, że Twoje wydarzenie będzie pełne doskonałej muzyki i fantastycznej zabawy.
-                        </DescriptionLight>
-                    </StaggeredItem>
+                    <OfferWrapper>
+                        <OfferImageWrapper>
+                            <StaggeredItem>
+                                <OfferImage src={image3} alt="Happy people"/>
+                            </StaggeredItem>
+                        </OfferImageWrapper>
+                        <OfferContent>
+                            <StaggeredItem>
+                                <ContentHeader id="offer">
+                                    Oferta i Usługi
+                                </ContentHeader>
+                            </StaggeredItem>
+                            <StaggeredItem>
+                                <DescriptionLight>
+                                    Z pasją tworzę niezapomniane muzyczne wspomnienia! Moje usługi DJ-skie to gwarancja profesjonalizmu i niezawodności, niezależnie od tego, czy organizujesz wymarzone wesele, prestiżowy event firmowy czy jubileuszową imprezę indywidualną. Poniżej znajdziesz szczegółowe informacje o tym, jak mogę sprawić, że Twoje wydarzenie będzie pełne doskonałej muzyki i fantastycznej zabawy.
+                                </DescriptionLight>
+                            </StaggeredItem>
+                        </OfferContent>
+                    </OfferWrapper>
+                </StaggeredContainer>
+                <StaggeredContainer>
                     <StaggeredItem>
                         <ContentHeader>
                             Wesela
@@ -30,8 +42,6 @@ const Cooperation = () => (
                             Jako DJ weselny stawiam na profesjonalizm i rzetelność, bo wiem, jak ważny jest to dzień dla Was i Waszych bliskich. Zanim przyjmę zlecenie, zawsze spotykam się z Parą Młodą, by wspólnie stworzyć scenariusz imprezy. Dzięki temu mogę idealnie dopasować repertuar oraz atrakcje do Waszych oczekiwań i gustów gości, tak aby wszystko przebiegło zgodnie z planem.
                         </DescriptionLight>
                     </StaggeredItem>
-                </StaggeredContainer>
-                <StaggeredContainer>
                     <ListWrapper>
                         <StaggeredItem>
                             <ContentHeader>Co oferuję</ContentHeader>
@@ -138,4 +148,4 @@ const Cooperation = () => (
     </Section >
 );
 
-export default Cooperation;
+export default Offer;

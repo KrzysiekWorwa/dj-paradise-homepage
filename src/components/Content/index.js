@@ -1,13 +1,13 @@
 import About from "./About";
 import Address from "./Address";
-import Cooperation from "./Cooperation";
+import Offer from "./Offer";
 import { Container } from "./styled";
 
 const Content = () => {
     return (
         <Container>
             <About />
-            <Cooperation />
+            <Offer />
             <Address />
         </Container>
     );
