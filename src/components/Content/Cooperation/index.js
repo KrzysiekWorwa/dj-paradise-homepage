@@ -1,6 +1,6 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { Container, ContentHeader, ContentSubHeader, Description, DescriptionLight, ImageWrapper, Section, SectionBackground } from "../styled";
-import { List, ListWrapper, Tile, TileDescription, TileName, TileNumber, TileWrapper } from "./styled";
+import { Container, ContentHeader, Description, DescriptionLight, ImageWrapper, Section, SectionBackground } from "../styled";
+import { List, ListWrapper, Tile, TileDescription, TileName, TileWrapper } from "./styled";
 import image from "./images/weeding.webp"
 import image2 from "./images/individual.webp"
 
@@ -34,7 +34,7 @@ const Cooperation = () => (
                 <StaggeredContainer>
                     <ListWrapper>
                         <StaggeredItem>
-                            <ContentHeader>Co oferuję?</ContentHeader>
+                            <ContentHeader>Co oferuję</ContentHeader>
                         </StaggeredItem>
                         <List>
                             <StaggeredItem>
@@ -91,7 +91,7 @@ const Cooperation = () => (
             <StaggeredContainer>
                 <ListWrapper>
                     <StaggeredItem>
-                        <ContentHeader>Co oferuję?</ContentHeader>
+                        <ContentHeader>Co oferuję</ContentHeader>
                     </StaggeredItem>
                     <List>
                         <StaggeredItem>

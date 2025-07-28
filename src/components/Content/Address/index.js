@@ -1,6 +1,6 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
 import { ContentHeader, Description } from "../styled";
-import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressHeader, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, PhoneIcon, MailIcon, AddressImage, Wrapper, ContactImage } from "./styled";
+import { Info, IconsWrapper, FacebookIcon, InstagramIcon, AddressSection, AddressInfo, AddressSubHeader, LinkWrapper, AddressLink, AddressContentWrapper, PhoneIcon, MailIcon, Wrapper, ContactImage, CenteredWrapper } from "./styled";
 import contactImage from "./images/address.webp"
 
 const Address = () => (
@@ -10,6 +10,13 @@ const Address = () => (
                 <ContentHeader>
                     Kontakt
                 </ContentHeader>
+            </StaggeredItem>
+            <StaggeredItem>
+                <Description>
+                    <CenteredWrapper>
+                        Skontaktuj się, aby uzyskać szczegółową ofertę i sprawdzić dostępność terminu
+                    </CenteredWrapper>
+                </Description>
             </StaggeredItem>
         </StaggeredContainer>
         <StaggeredContainer>

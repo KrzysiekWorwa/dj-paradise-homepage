@@ -36,18 +36,7 @@ export const ContentHeader = styled.h2`
 }
 `;
 
-export const ContentSubHeader = styled.h2`
-    font-size: 50px;
-    text-align: center;
-    
-        @media (max-width: 767px) {
-            font-size: 40px;
-}
-`;
-
-
 export const Description = styled.p`
-  color:rgb(90, 103, 119);
   font-size: 20px;
   line-height: 1.5;
   text-align: justify;

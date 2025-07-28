@@ -6,23 +6,16 @@ import { ReactComponent as MailIconLink } from "./SvgIcons/mail.svg";
 
 export const AddressSection = styled.section``;
 
-export const AddressHeader = styled.h2`
-    font-size: 48px;
-    text-align: right;
-    margin-top: 0;
-    
-    @media (max-width: 767px) {
-        font-size: 32px;
-        text-align: center;
-}
-`;
-
 export const AddressSubHeader = styled.h3`
     font-size: 30px;
     margin-top: 0;
         @media (max-width: 767px) {
         font-size: 20px;
 }
+`;
+export const CenteredWrapper = styled.div`
+    text-align: center;
+    padding-bottom: 28px;
 `;
 
 export const AddressInfo = styled.address`
@@ -77,8 +70,8 @@ export const IconsWrapper = styled.div`
 `;
 
 export const FacebookIcon = styled(FacebookIconLink)`
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     color: #C47E0E;
     transition: transform 0.3s ease, color 0.3s ease;
 
@@ -86,18 +79,27 @@ export const FacebookIcon = styled(FacebookIconLink)`
         color: hsla(37, 87%, 50%, 1.00);
         transform: scale(1.05);
     }
+        @media (max-width: 767px) {
+            width: 48px;
+            height: 48px;
+        }   
 `;
 
 export const InstagramIcon = styled(InstagramIconLink)`
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     color: #C47E0E;
     transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
         color: hsla(37, 87%, 50%, 1.00);
         transform: scale(1.05);
-    }
+        }
+
+        @media (max-width: 767px) {
+            width: 48px;
+            height: 48px;
+        }
 `;
 
 export const AddressContentWrapper = styled.div`
@@ -135,28 +137,6 @@ export const MailIcon = styled(MailIconLink)`
           width: 17px;
           height: 17px;
 }
-  `;
-
-export const AddressImage = styled.div`
-    position: relative;
-    width: 100vw;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    height: 500px;
-    background-image: url(${(props) => props.$imageSrc});
-    background-size: cover;
-    background-position: center top;
-    background-attachment: fixed;
-
-    @media (max-width: 991px) {
-        height: 300px;
-    }
-    
-    @media (max-width: 767px) {
-        display: none;
-    }
 `;
 
 export const Wrapper = styled.div`

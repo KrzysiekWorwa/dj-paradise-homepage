@@ -17,7 +17,6 @@ justify-content: center;
 `;
 
 export const AboutDescription = styled.p`
-  color:rgb(90, 103, 119);
   font-size: 20px;
   line-height: 1.5;
   text-align: justify;
