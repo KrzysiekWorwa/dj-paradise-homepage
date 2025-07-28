@@ -23,26 +23,24 @@ const Address = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <Info>
-                            Robert Wojtaszek Latarnia Sukcesu<br />
-                            NIP: 7351002000 <br />
-                            ul. Krótka 6 <br />
-                            34-440 Czorsztyn <br />
+                            Marcin Matras <br />
+                            Dj Paradise <br />
                         </Info>
                     </StaggeredItem>
                     <StaggeredItem>
                         <LinkWrapper>
-                            <AddressLink href="tel:+48514183913" title="telefon"><PhoneIcon /> 514 183 913</AddressLink>
+                            <AddressLink href="tel:+48502299749" title="telefon"><PhoneIcon /> 502 299 749</AddressLink>
                         </LinkWrapper>
                         <LinkWrapper>
-                            <AddressLink href="mailto:biuro@zalewczorsztynski.com" title="biuro@zalewczorsztynski.com"><MailIcon />biuro@zalewczorszt.com</AddressLink>
+                            <AddressLink href="mailto:djparadise.nt@gmail.com" title="djparadise.nt@gmail.com"><MailIcon />djparadise.nt@gmail.com</AddressLink>
                         </LinkWrapper>
                     </StaggeredItem>
                     <StaggeredItem>
                         <IconsWrapper>
-                            <a href="https://www.facebook.com/przystanczorsztynianka" target="_blank" title="Facebook" rel="noreferrer">
+                            <a href="https://www.facebook.com/djparadise.nt" target="_blank" title="Facebook" rel="noreferrer">
                                 <FacebookIcon />
                             </a>
-                            <a href="https://www.instagram.com/czorsztynianka/" target="_blank" title="Instagram" rel="noreferrer">
+                            <a href="https://www.instagram.com/djparadise90" target="_blank" title="Instagram" rel="noreferrer">
                                 <InstagramIcon />
                             </a>
                         </IconsWrapper>

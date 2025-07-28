@@ -46,10 +46,10 @@ export const AddressLink = styled.a`
     font-weight: bold;
     text-decoration: none;
     transition: transform 0.3s ease, color 0.3s ease;
-    color: rgb(0, 34, 92);
+    color: #C47E0E;
 
     &:hover {
-        color: rgb(0, 153, 255);
+        color: hsla(37, 87%, 50%, 1.00);
         transform: scale(1.05);
     }
 
@@ -79,11 +79,11 @@ export const IconsWrapper = styled.div`
 export const FacebookIcon = styled(FacebookIconLink)`
     width: 48px;
     height: 48px;
-    color:rgb(0, 34, 92);
+    color: #C47E0E;
     transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
-        color:rgb(0, 153, 255);
+        color: hsla(37, 87%, 50%, 1.00);
         transform: scale(1.05);
     }
 `;
@@ -91,11 +91,11 @@ export const FacebookIcon = styled(FacebookIconLink)`
 export const InstagramIcon = styled(InstagramIconLink)`
     width: 48px;
     height: 48px;
-    color:rgb(0, 34, 94);
+    color: #C47E0E;
     transition: transform 0.3s ease, color 0.3s ease;
 
         &:hover {
-        color: rgb(0, 153, 255);
+        color: hsla(37, 87%, 50%, 1.00);
         transform: scale(1.05);
     }
 `;
@@ -161,8 +161,4 @@ export const AddressImage = styled.div`
 
 export const Wrapper = styled.div`
   text-align: right;
-
-    @media (max-width: 767px) {
-        order: 1;
-    }
 `;
