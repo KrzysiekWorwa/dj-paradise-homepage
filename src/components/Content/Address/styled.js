@@ -42,7 +42,7 @@ export const AddressLink = styled.a`
     flex-direction: row;
     align-items: center;
     gap: 5px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: none;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -104,7 +104,7 @@ export const AddressContentWrapper = styled.div`
 padding: 0;
 padding-bottom: 50px;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: auto 1fr;
 grid-gap: 50px;
 align-items: center;
 
@@ -160,5 +160,21 @@ export const AddressImage = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  text-align: right;
+  text-align: center;
+      @media (max-width: 767px) {
+        order: 2;
+    }
+`;
+
+export const ContactImage = styled.img`
+    width: 90%;
+    max-height: 390px;
+    object-fit: cover;
+    justify-self: center;
+
+    @media (max-width: 1200px) {
+        width: 100%;
+        height: 410px;
+        text-align: center;
+    }
 `;
