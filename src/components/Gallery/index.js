@@ -15,7 +15,7 @@ const Gallery = ({ images }) => {
     const [index, setIndex] = useState(-1);
 
     return (
-        <GalleryWrapper>
+        <GalleryWrapper id="gallery">
             <StaggeredContainer>
                 <StaggeredItem>
                     <GalleryHeader>Portfolio</GalleryHeader>

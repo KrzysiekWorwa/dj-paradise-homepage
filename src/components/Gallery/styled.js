@@ -9,7 +9,7 @@ export const GalleryHeader = styled.h2`
 }
 `;
 
-export const GalleryWrapper = styled.div`
+export const GalleryWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;

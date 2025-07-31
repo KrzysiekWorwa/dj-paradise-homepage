@@ -13,9 +13,15 @@ export const AddressSubHeader = styled.h3`
         font-size: 20px;
 }
 `;
-export const CenteredWrapper = styled.div`
-    text-align: center;
-    padding-bottom: 28px;
+export const AddressDescription = styled.p`
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 28px;
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 
 export const AddressInfo = styled.address`

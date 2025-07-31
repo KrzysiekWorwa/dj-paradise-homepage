@@ -31,14 +31,11 @@ const NavigationBar = () => {
                     <NavItem to="offer" smooth={true} duration={800} offset={-200}>
                         Oferta
                     </NavItem>
-                    <NavItem to="team" smooth={true} duration={1000} offset={-100}>
-                        Zespół
-                    </NavItem>
-                    <NavItem to="why" smooth={true} duration={1200} offset={-100}>
-                        Dlaczego my
-                    </NavItem>
                     <NavItem to="address" smooth={true} duration={1400} offset={-150}>
                         Kontakt
+                    </NavItem>
+                    <NavItem to="gallery" smooth={true} duration={1400} offset={-90}>
+                        Portfolio
                     </NavItem>
                 </NavLinks>
                 <NavIcons>
@@ -57,14 +54,11 @@ const NavigationBar = () => {
                     <NavItem to="offer" smooth={true} duration={800} offset={-300}>
                         Oferta
                     </NavItem>
-                    <NavItem to="team" smooth={true} duration={1000} offset={-300}>
-                        Zespół
-                    </NavItem>
-                    <NavItem to="why" smooth={true} duration={1000} offset={-300}>
-                        Dlaczego my
-                    </NavItem>
                     <NavItem to="address" smooth={true} duration={1000} offset={-300}>
                         Kontakt
+                    </NavItem>
+                    <NavItem to="gallery" smooth={true} duration={1000} offset={-300}>
+                        Portfolio
                     </NavItem>
                 </MobileMenu>
             </NavWrapper>
