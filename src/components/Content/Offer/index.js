@@ -107,37 +107,37 @@ const Offer = () => (
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Oprawa muzyczna dopasowana do charakteru wydarzenia</TileName>
-                                <TileDescription variant="light">Repertuar zawsze dostosowuję do potrzeb i profilu eventu – od subtelnego tła muzycznego po energetyczne sety na parkiecie</TileDescription>
+                                <TileDescription $variant="light">Repertuar zawsze dostosowuję do potrzeb i profilu eventu – od subtelnego tła muzycznego po energetyczne sety na parkiecie</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Profesjonalny sprzęt nagłośnieniowy i oświetleniowy</TileName>
-                                <TileDescription variant="light">Korzystam z wysokiej klasy sprzętu, który gwarantuje czysty dźwięk i efektowną oprawę wizualną niezależnie od wielkości sali</TileDescription>
+                                <TileDescription $variant="light">Korzystam z wysokiej klasy sprzętu, który gwarantuje czysty dźwięk i efektowną oprawę wizualną niezależnie od wielkości sali</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Prowadzenie imprezy (opcjonalnie)</TileName>
-                                <TileDescription variant="light">Na życzenie mogę pełnić również funkcję konferansjera – z wyczuciem, humorem i odpowiednim stylem</TileDescription>
+                                <TileDescription $variant="light">Na życzenie mogę pełnić również funkcję konferansjera – z wyczuciem, humorem i odpowiednim stylem</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Indywidualne podejście</TileName>
-                                <TileDescription variant="light">Każdy event traktuję indywidualnie – chętnie wysłucham Twoich potrzeb i przygotuję dopasowaną ofertę</TileDescription>
+                                <TileDescription $variant="light">Każdy event traktuję indywidualnie – chętnie wysłucham Twoich potrzeb i przygotuję dopasowaną ofertę</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Dodatkowe atrakcje (na życzenie)</TileName>
-                                <TileDescription variant="light">Współpracuję z muzykami, wokalistami oraz specjalistami od multimediów – wspólnie możemy stworzyć wyjątkowe widowisko</TileDescription>
+                                <TileDescription $variant="light">Współpracuję z muzykami, wokalistami oraz specjalistami od multimediów – wspólnie możemy stworzyć wyjątkowe widowisko</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Zadbam o oprawę muzyczną, klimat i emocje</TileName>
-                                <TileDescription variant="light">a Twoi goście będą wspominać ten event jeszcze długo po jego zakończeniu</TileDescription>
+                                <TileDescription $variant="light">a Twoi goście będą wspominać ten event jeszcze długo po jego zakończeniu</TileDescription>
                             </Tile>
                         </StaggeredItem>
                     </List>

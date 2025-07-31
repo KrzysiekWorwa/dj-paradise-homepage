@@ -12,11 +12,11 @@ const Address = () => (
                 </ContentHeader>
             </StaggeredItem>
             <StaggeredItem>
-                <Description>
-                    <CenteredWrapper>
+                <CenteredWrapper>
+                    <Description>
                         Skontaktuj się, aby uzyskać szczegółową ofertę i sprawdzić dostępność terminu
-                    </CenteredWrapper>
-                </Description>
+                    </Description>
+                </CenteredWrapper>
             </StaggeredItem>
         </StaggeredContainer>
         <StaggeredContainer>

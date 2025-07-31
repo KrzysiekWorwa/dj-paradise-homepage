@@ -104,7 +104,6 @@ export const InstagramIcon = styled(InstagramIconLink)`
 
 export const AddressContentWrapper = styled.div`
 padding: 0;
-padding-bottom: 50px;
 display: grid;
 grid-template-columns: auto 1fr;
 grid-gap: 50px;
