@@ -18,22 +18,22 @@ const About = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <AboutDescription>
-                            <strong>Paradise</strong> to DJ, wodzirej i animator w jednej osobie – zadba o każdy, nawet najmniejszy detal Waszego przyjęcia.
+                            <strong>Paradise</strong> to DJ, wodzirej i&nbsp;animator w&nbsp;jednej osobie&nbsp;– zadba o każdy, nawet najmniejszy detal Waszego przyjęcia.
                         </AboutDescription>
                     </StaggeredItem>
                     <StaggeredItem>
                         <AboutDescription>
-                            To człowiek pełen pozytywnej energii, charyzmy i nieszablonowych pomysłów, który potrafi połączyć dobrą zabawę z klasą i wyczuciem smaku.
+                            To człowiek pełen pozytywnej energii, charyzmy i&nbsp;nieszablonowych pomysłów, który potrafi połączyć dobrą zabawę z&nbsp;klasą i&nbsp;wyczuciem smaku.
                         </AboutDescription>
                     </StaggeredItem>
                     <StaggeredItem>
                         <AboutDescription>
-                            Stawia na oryginalność, by każde wesele czy event były wyjątkowe i zupełnie inne niż wszystkie.
+                            Stawia na oryginalność, by&nbsp;każde wesele czy event były wyjątkowe i&nbsp;zupełnie inne niż wszystkie.
                         </AboutDescription>
                     </StaggeredItem>
                     <StaggeredItem>
                         <AboutDescription>
-                            Profesjonalizm i rzetelność to jego priorytety – dlatego każdą współpracę opiera na zaufaniu, otwartości i dokładnym poznaniu oczekiwań klientów, aby stworzyć wydarzenie dopracowane w najmniejszym szczególe.
+                            Profesjonalizm i rzetelność to jego priorytety &nbsp;– dlatego każdą współpracę opiera na zaufaniu, otwartości i&nbsp;dokładnym poznaniu oczekiwań klientów, aby stworzyć wydarzenie dopracowane w&nbsp;najmniejszym szczególe.
                         </AboutDescription>
                     </StaggeredItem>
                     <StaggeredItem>

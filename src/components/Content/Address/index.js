@@ -13,7 +13,7 @@ const Address = () => (
             </StaggeredItem>
             <StaggeredItem>
                 <AddressDescription>
-                    Skontaktuj się, aby uzyskać szczegółową ofertę i sprawdzić dostępność terminu
+                    Skontaktuj się, aby uzyskać szczegółową ofertę i&nbsp;sprawdzić dostępność terminu
                 </AddressDescription>
             </StaggeredItem>
         </StaggeredContainer>

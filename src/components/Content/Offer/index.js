@@ -14,18 +14,18 @@ const Offer = () => (
                     <OfferWrapper>
                         <OfferImageWrapper>
                             <StaggeredItem>
-                                <OfferImage src={image3} alt="Happy people"/>
+                                <OfferImage src={image3} alt="Happy people" />
                             </StaggeredItem>
                         </OfferImageWrapper>
                         <OfferContent>
                             <StaggeredItem>
                                 <ContentHeader id="offer">
-                                    Oferta i Usługi
+                                    Oferta i&nbsp;Usługi
                                 </ContentHeader>
                             </StaggeredItem>
                             <StaggeredItem>
                                 <DescriptionLight>
-                                    Z pasją tworzę niezapomniane muzyczne wspomnienia! Moje usługi DJ-skie to gwarancja profesjonalizmu i niezawodności, niezależnie od tego, czy organizujesz wymarzone wesele, prestiżowy event firmowy czy jubileuszową imprezę indywidualną. Poniżej znajdziesz szczegółowe informacje o tym, jak mogę sprawić, że Twoje wydarzenie będzie pełne doskonałej muzyki i fantastycznej zabawy.
+                                    Z pasją tworzę niezapomniane muzyczne wspomnienia! Moje usługi DJ-skie to gwarancja profesjonalizmu i&nbsp;niezawodności, niezależnie od tego, czy organizujesz wymarzone wesele, prestiżowy event firmowy czy jubileuszową imprezę indywidualną. Poniżej znajdziesz szczegółowe informacje o&nbsp;tym, jak mogę sprawić, że Twoje wydarzenie będzie pełne doskonałej muzyki i&nbsp;fantastycznej zabawy.
                                 </DescriptionLight>
                             </StaggeredItem>
                         </OfferContent>
@@ -39,7 +39,7 @@ const Offer = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <DescriptionLight>
-                            Jako DJ weselny stawiam na profesjonalizm i rzetelność, bo wiem, jak ważny jest to dzień dla Was i Waszych bliskich. Zanim przyjmę zlecenie, zawsze spotykam się z Parą Młodą, by wspólnie stworzyć scenariusz imprezy. Dzięki temu mogę idealnie dopasować repertuar oraz atrakcje do Waszych oczekiwań i gustów gości, tak aby wszystko przebiegło zgodnie z planem.
+                            Jako DJ weselny stawiam na profesjonalizm i&nbsp;rzetelność, bo wiem, jak ważny jest to dzień dla Was i&nbsp;Waszych bliskich. Zanim przyjmę zlecenie, zawsze spotykam się z&nbsp;Parą Młodą, by wspólnie stworzyć scenariusz imprezy. Dzięki temu mogę idealnie dopasować repertuar oraz atrakcje do Waszych oczekiwań i&nbsp;gustów gości, tak aby wszystko przebiegło zgodnie z&nbsp;planem.
                         </DescriptionLight>
                     </StaggeredItem>
                     <ListWrapper>
@@ -50,33 +50,33 @@ const Offer = () => (
                             <StaggeredItem>
                                 <Tile>
                                     <TileName>Profesjonalne nagłośnienie</TileName>
-                                    <TileDescription>gwarantuję czysty, wysokiej jakości dźwięk, który wypełni całą salę, a poziom głośności będzie dostosowany do charakteru imprezy</TileDescription>
+                                    <TileDescription>gwarantuję czysty, wysokiej jakości dźwięk, który wypełni całą salę, a&nbsp;poziom głośności będzie dostosowany do charakteru imprezy</TileDescription>
                                 </Tile>
                             </StaggeredItem>
                             <StaggeredItem>
                                 <Tile>
-                                    <TileName>Oświetlenie parkietu i oświetlenie RETRO</TileName>
-                                    <TileDescription>tworzenie wyjątkowej atmosfery jest dla mnie priorytetem, dlatego zadbam o odpowiednie efekty świetlne, które podkreślą magiczny klimat Waszego wesela</TileDescription>
+                                    <TileName>Oświetlenie parkietu i&nbsp;oświetlenie RETRO</TileName>
+                                    <TileDescription>tworzenie wyjątkowej atmosfery jest dla mnie priorytetem, dlatego zadbam o&nbsp;odpowiednie efekty świetlne, które podkreślą magiczny klimat Waszego wesela</TileDescription>
                                 </Tile>
                             </StaggeredItem>
                             <StaggeredItem>
                                 <Tile>
-                                    <TileName>Animacje, zabawy, konkursy i oczepiny</TileName>
-                                    <TileDescription>dbam o dobrą zabawę i angażuję gości w rozmaite aktywności, które sprawią, że Wasze wesele będzie pełne radości i śmiechu</TileDescription>
+                                    <TileName>Animacje, zabawy, konkursy i&nbsp;oczepiny</TileName>
+                                    <TileDescription>dbam o&nbsp;dobrą zabawę i&nbsp;angażuję gości w&nbsp;rozmaite aktywności, które sprawią, że Wasze wesele będzie pełne radości i&nbsp;śmiechu</TileDescription>
                                 </Tile>
                             </StaggeredItem>
                         </List>
                         <TileWrapper>
                             <StaggeredItem>
                                 <Tile>
-                                    <TileName>Darmowe gadżety i rekwizyty</TileName>
-                                    <TileDescription>oferuję różnorodne akcesoria, takie jak pałki LED, które urozmaicą animacje i zachęcą wszystkich do wspólnej zabawy</TileDescription>
+                                    <TileName>Darmowe gadżety i&nbsp;rekwizyty</TileName>
+                                    <TileDescription>oferuję różnorodne akcesoria, takie jak pałki LED, które urozmaicą animacje i&nbsp;zachęcą wszystkich do wspólnej zabawy</TileDescription>
                                 </Tile>
                             </StaggeredItem>
                             <StaggeredItem>
                                 <Tile>
                                     <TileName>Repertuar dopasowany do Waszych potrzeb</TileName>
-                                    <TileDescription>każdą playlistę ustalam z Parą Młodą, aby grać utwory, które idealnie pasują do Waszego stylu i sprawią, że parkiet będzie pełen do samego końca. Muzyka na życzenie? Oczywiście, to dla mnie żaden problem!</TileDescription>
+                                    <TileDescription>każdą playlistę ustalam z Parą Młodą, aby grać utwory, które idealnie pasują do Waszego stylu i&nbsp;sprawią, że parkiet będzie pełen do samego końca. Muzyka na życzenie? Oczywiście, to dla mnie żaden problem!</TileDescription>
                                 </Tile>
                             </StaggeredItem>
                         </TileWrapper>
@@ -89,12 +89,12 @@ const Offer = () => (
             <StaggeredContainer>
                 <StaggeredItem>
                     <ContentHeader>
-                        Eventy firmowe / imprezy indywidualne
+                        Eventy firmowe i&nbsp;imprezy indywidualne
                     </ContentHeader>
                 </StaggeredItem>
                 <StaggeredItem>
                     <Description>
-                        Szukasz profesjonalnej oprawy muzycznej na firmowy event, galę, konferencję, jubileusz lub imprezę integracyjną? Jako doświadczony DJ specjalizuję się w tworzeniu wyjątkowej atmosfery podczas wydarzeń biznesowych – od eleganckich bankietów po dynamiczne imprezy taneczne.
+                        Szukasz profesjonalnej oprawy muzycznej na firmowy event, galę, konferencję, jubileusz lub imprezę integracyjną? Jako doświadczony DJ specjalizuję się w&nbsp;tworzeniu wyjątkowej atmosfery podczas wydarzeń biznesowych&nbsp;– od eleganckich bankietów po dynamiczne imprezy taneczne.
                     </Description>
                 </StaggeredItem>
             </StaggeredContainer>
@@ -112,32 +112,32 @@ const Offer = () => (
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
-                                <TileName>Profesjonalny sprzęt nagłośnieniowy i oświetleniowy</TileName>
-                                <TileDescription $variant="light">Korzystam z wysokiej klasy sprzętu, który gwarantuje czysty dźwięk i efektowną oprawę wizualną niezależnie od wielkości sali</TileDescription>
+                                <TileName>Profesjonalny sprzęt nagłośnieniowy i&nbsp;oświetleniowy</TileName>
+                                <TileDescription $variant="light">Korzystam z wysokiej klasy sprzętu, który gwarantuje czysty dźwięk i&nbsp;efektowną oprawę wizualną niezależnie od wielkości sali</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Prowadzenie imprezy (opcjonalnie)</TileName>
-                                <TileDescription $variant="light">Na życzenie mogę pełnić również funkcję konferansjera – z wyczuciem, humorem i odpowiednim stylem</TileDescription>
+                                <TileDescription $variant="light">Na życzenie mogę pełnić również funkcję konferansjera&nbsp;– z&nbsp;wyczuciem, humorem i&nbsp;odpowiednim stylem</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Indywidualne podejście</TileName>
-                                <TileDescription $variant="light">Każdy event traktuję indywidualnie – chętnie wysłucham Twoich potrzeb i przygotuję dopasowaną ofertę</TileDescription>
+                                <TileDescription $variant="light">Każdy event traktuję indywidualnie&nbsp;– chętnie wysłucham Twoich potrzeb i&nbsp;przygotuję dopasowaną ofertę</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
                                 <TileName>Dodatkowe atrakcje (na życzenie)</TileName>
-                                <TileDescription $variant="light">Współpracuję z muzykami, wokalistami oraz specjalistami od multimediów – wspólnie możemy stworzyć wyjątkowe widowisko</TileDescription>
+                                <TileDescription $variant="light">Współpracuję z muzykami, wokalistami oraz specjalistami od multimediów&nbsp;– wspólnie możemy stworzyć wyjątkowe widowisko</TileDescription>
                             </Tile>
                         </StaggeredItem>
                         <StaggeredItem>
                             <Tile>
-                                <TileName>Zadbam o oprawę muzyczną, klimat i emocje</TileName>
-                                <TileDescription $variant="light">a Twoi goście będą wspominać ten event jeszcze długo po jego zakończeniu</TileDescription>
+                                <TileName>Zadbam o&nbsp;oprawę muzyczną, klimat i&nbsp;emocje</TileName>
+                                <TileDescription $variant="light">a&nbsp;Twoi goście będą wspominać ten event jeszcze długo po jego zakończeniu</TileDescription>
                             </Tile>
                         </StaggeredItem>
                     </List>
