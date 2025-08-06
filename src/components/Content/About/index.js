@@ -18,7 +18,7 @@ const About = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <AboutDescription>
-                            <strong>Paradise</strong> to DJ, wodzirej i&nbsp;animator w&nbsp;jednej osobie&nbsp;– zadba o każdy, nawet najmniejszy detal Waszego przyjęcia.
+                            <strong>Paradise</strong> to DJ, wodzirej i&nbsp;animator w&nbsp;jednej osobie&nbsp;– zadba o&nbsp;każdy, nawet najmniejszy detal Waszego przyjęcia.
                         </AboutDescription>
                     </StaggeredItem>
                     <StaggeredItem>

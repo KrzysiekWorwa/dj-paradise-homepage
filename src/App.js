@@ -1,3 +1,4 @@
+import { ParallaxProvider } from "react-scroll-parallax";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
@@ -8,13 +9,13 @@ import { images } from "./components/Gallery/images";
 
 function App() {
   return (
-    <>
+    <ParallaxProvider>
       <NavigationBar />
       <Hero />
       <Content />
       <Gallery images={images} />
       <Footer />
-    </>
+    </ParallaxProvider>
   );
 }
 

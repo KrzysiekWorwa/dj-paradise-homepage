@@ -1,5 +1,5 @@
 import { StaggeredContainer, StaggeredItem } from "../../../animations/staggeredFadeIn";
-import { Container, ContentHeader, Description, DescriptionLight, ImageWrapper, Section, SectionBackground } from "../styled";
+import { Container, ContentHeader, Description, DescriptionLight, Section, SectionBackground, StyledParallaxBanner } from "../styled";
 import { List, ListWrapper, OfferContent, OfferImage, OfferImageWrapper, OfferWrapper, Tile, TileDescription, TileName, TileWrapper } from "./styled";
 import image from "./images/weeding.webp"
 import image2 from "./images/individual.webp"
@@ -83,7 +83,14 @@ const Offer = () => (
                     </ListWrapper>
                 </StaggeredContainer>
             </Container>
-            <ImageWrapper $imageSrc={image} alt="weeding photo" />
+            <StyledParallaxBanner
+                layers={[{
+                    image: image, speed: -30,
+                    style: {
+                        backgroundPosition: '40% center',
+                    },
+                }]}
+            />
         </SectionBackground>
         <Container>
             <StaggeredContainer>
@@ -144,7 +151,11 @@ const Offer = () => (
                 </ListWrapper>
             </StaggeredContainer>
         </Container>
-        <ImageWrapper $imageSrc={image2} alt="photo of dj" />
+        <SectionBackground>
+            <StyledParallaxBanner
+                layers={[{ image: image2, speed: -30 }]}
+            />
+        </SectionBackground>
     </Section >
 );
 

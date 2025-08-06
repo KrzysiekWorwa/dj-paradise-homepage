@@ -1,4 +1,5 @@
 
+import { ParallaxBanner } from "react-scroll-parallax";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -82,20 +83,9 @@ export const Button = styled.a`
     }
 `;
 
-export const ImageWrapper = styled.div`
-  position: relative;
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  height: 700px;
-  background-image: url(${(props) => props.$imageSrc});
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-  @media (max-width: 991px) {
-    height: 300px;
-  }
+export const StyledParallaxBanner = styled(ParallaxBanner)`
+    height: 700px;
+    @media (max-width: 991px) {
+        height: 300px;
+    }
 `;
