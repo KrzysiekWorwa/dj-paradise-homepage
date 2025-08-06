@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dj-paradise-homepage/static/css/main.b2ed52a7.css",
-    "main.js": "/dj-paradise-homepage/static/js/main.b8d0014d.js",
+    "main.js": "/dj-paradise-homepage/static/js/main.7afcaee5.js",
     "static/js/453.b4d6bfca.chunk.js": "/dj-paradise-homepage/static/js/453.b4d6bfca.chunk.js",
     "static/media/hero.webp": "/dj-paradise-homepage/static/media/hero.11d026fe1c48d50d2ccf.webp",
     "static/media/P&M_0997.webp": "/dj-paradise-homepage/static/media/P&M_0997.af73d757b0e56bcd8934.webp",
@@ -45,11 +45,11 @@
     "static/media/facebookIcon.svg": "/dj-paradise-homepage/static/media/facebookIcon.f266fa5079fb10e3e6344e3b9358ce04.svg",
     "static/media/arrow.svg": "/dj-paradise-homepage/static/media/arrow.05b8a791fc76817568db38741cd6c5f0.svg",
     "main.b2ed52a7.css.map": "/dj-paradise-homepage/static/css/main.b2ed52a7.css.map",
-    "main.b8d0014d.js.map": "/dj-paradise-homepage/static/js/main.b8d0014d.js.map",
+    "main.7afcaee5.js.map": "/dj-paradise-homepage/static/js/main.7afcaee5.js.map",
     "453.b4d6bfca.chunk.js.map": "/dj-paradise-homepage/static/js/453.b4d6bfca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2ed52a7.css",
-    "static/js/main.b8d0014d.js"
+    "static/js/main.7afcaee5.js"
   ]
 }
