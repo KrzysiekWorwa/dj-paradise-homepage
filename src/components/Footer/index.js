@@ -12,13 +12,13 @@ const Footer = () => (
             </HomeButton>
             <FooterWrapper>
                 <Link to="home" smooth={true} duration={600} offset={-90}>
-                    <FooterLogo src={Logo} alt="Logo" />
+                    <FooterLogo src={Logo} alt="Logo DJ Paradise" />
                 </Link>
                 <FooterIcons>
-                    <a href="https://www.facebook.com/djparadise.nt" target="_blank" title="Facebook" rel="noreferrer">
+                    <a href="https://www.facebook.com/djparadise.nt" target="_blank" title="Facebook" rel="noopener noreferrer" aria-label="DJ Paradise na Facebooku">
                         <FacebookIcon />
                     </a>
-                    <a href="https://www.instagram.com/djparadise90" target="_blank" title="Instagram" rel="noreferrer">
+                    <a href="https://www.instagram.com/djparadise90" target="_blank" title="Instagram" rel="noopener noreferrer" aria-label="DJ Paradise na Instagramie">
                         <InstagramIcon />
                     </a>
                 </FooterIcons>

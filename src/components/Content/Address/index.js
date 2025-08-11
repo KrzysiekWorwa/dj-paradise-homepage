@@ -41,10 +41,10 @@ const Address = () => (
                     </StaggeredItem>
                     <StaggeredItem>
                         <IconsWrapper>
-                            <a href="https://www.facebook.com/djparadise.nt" target="_blank" title="Facebook" rel="noreferrer">
+                            <a href="https://www.facebook.com/djparadise.nt" target="_blank" title="Facebook" rel="noopener noreferrer" aria-label="DJ Paradise na Facebooku">
                                 <FacebookIcon />
                             </a>
-                            <a href="https://www.instagram.com/djparadise90" target="_blank" title="Instagram" rel="noreferrer">
+                            <a href="https://www.instagram.com/djparadise90" target="_blank" title="Instagram" rel="noopener noreferrer" aria-label="DJ Paradise na Instagramie">
                                 <InstagramIcon />
                             </a>
                         </IconsWrapper>
@@ -52,7 +52,7 @@ const Address = () => (
                 </AddressInfo>
                 <Wrapper>
                     <StaggeredItem>
-                        <ContactImage src={contactImage} alt="photo of dj" />
+                        <ContactImage src={contactImage} alt="DJ Paradise grający muzykę na żywo" />
                     </StaggeredItem>
                 </Wrapper>
             </AddressContentWrapper>

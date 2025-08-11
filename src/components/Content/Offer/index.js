@@ -14,7 +14,7 @@ const Offer = () => (
                     <OfferWrapper>
                         <OfferImageWrapper>
                             <StaggeredItem>
-                                <OfferImage src={image3} alt="Happy people" />
+                                <OfferImage src={image3} alt="Goście bawiący się na parkiecie z DJ Paradise" />
                             </StaggeredItem>
                         </OfferImageWrapper>
                         <OfferContent>

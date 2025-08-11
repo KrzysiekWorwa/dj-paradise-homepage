@@ -47,7 +47,7 @@ const About = () => (
 
                 <ImageWrapper>
                     <StaggeredItem>
-                        <AboutImage src={image} alt="photo of dj" />
+                        <AboutImage src={image} alt="DJ Paradise prowadzący wesele z oświetleniem scenicznym" />
                     </StaggeredItem>
                 </ImageWrapper>
 
